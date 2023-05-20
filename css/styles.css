@@ -310,11 +310,21 @@ img {
     padding-bottom: 120px;
 }
 .portfolio-filter-list {
-padding-bottom: 72px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 72px;
 }
 
-.portfolio-item {
-border: 1px solid #E7E9FC;
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio-border {
+    border: 1px solid #E7E9FC;
+    border-top: none;
+    width: 360px;
 }
 
 .portfolio-filter-btn {
@@ -346,7 +356,7 @@ border: 1px solid #E7E9FC;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
-    margin-top: 32px;
+    padding-top: 32px;
     margin-bottom: 8px;
 }
 

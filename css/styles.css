@@ -119,14 +119,14 @@ img {
     display: inline-block;
 }
 
-/* .contacts:hover,
+.contacts:hover,
 .contacts:focus {
     color: var(--hover-color);
-} */
-
-.contacts:active {
-    color: var(--hover-color);
 }
+
+/* .contacts:active {
+    color: var(--hover-color);
+} */
 
 .header-logo {
     font-family: 'Raleway', sans-serif;
